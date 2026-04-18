@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 import {
   FaCompass,
   FaSignOutAlt,
-  FaUserCircle,
   FaGlobe,
   FaUsers,
   FaStar,
@@ -18,16 +17,11 @@ import {
   FaWater,
   FaSnowflake,
   FaFire,
-  FaPlane,
-  FaUtensils,
-  FaBed,
   FaTrophy,
   FaGift,
   FaShieldAlt,
   FaHeadphones,
   FaCheckCircle,
-  FaHourglassHalf,
-  FaTimesCircle,
 } from "react-icons/fa";
 import { 
   featuredTours, 
