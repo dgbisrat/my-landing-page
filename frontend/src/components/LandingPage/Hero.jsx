@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaPlay, FaInfoCircle } from "react-icons/fa";
+import { FaPlay } from 'react-icons/fa';
 
 const Hero = () => {
   return (
