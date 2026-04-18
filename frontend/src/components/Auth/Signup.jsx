@@ -40,7 +40,7 @@ const Signup = () => {
     setLoading(true);
 
     try {
-      const response = await api.post("/auth/signup", {
+      await api.post("/auth/signup", {
         firstName: formData.firstName,
         fatherName: formData.fatherName,
         grandName: formData.grandName,

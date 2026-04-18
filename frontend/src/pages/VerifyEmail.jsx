@@ -20,7 +20,7 @@ const VerifyEmail = () => {
       }
 
       try {
-        const response = await api.get(`/auth/verify-email?token=${token}`);
+        await api.get(`/auth/verify-email?token=${token}`);
         setStatus('success');
         setMessage('Email verified successfully!');
         setTimeout(() => {
